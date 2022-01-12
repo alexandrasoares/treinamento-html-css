@@ -1,4 +1,5 @@
 @media screen and (max-width: 480px) {
+  /* PAGINA HOME */
   .caixa,
   .principal,
   .conteudo-beneficios,
@@ -13,12 +14,23 @@
 
   nav {
     position: static;
-    border: 1px solid red;
     font-size: 8px;
   }
 
   .lista-beneficios,
   .imagem-beneficios {
     width: 100%;
+  }
+
+  /* PAGINA PRODUTOS */
+
+  .produtos {
+    width: 100%;
+  }
+
+  .produtos li {
+    width: auto;
+    padding: 3px;
+    margin: 14%;
   }
 }

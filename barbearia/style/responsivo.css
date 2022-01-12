@@ -33,4 +33,46 @@
     padding: 3px;
     margin: 14%;
   }
+
+  /* PAGINA DE CONTATO */
+
+  form {
+    margin: 10px;
+    display: inline;
+  }
+
+  form label,
+  form legend {
+    display: block;
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  .input-padrao {
+    width: 80%;
+    margin: 10px;
+    border: 1px solid orange;
+    border-radius: 5px;
+  }
+
+  .select-options {
+    width: 50%;
+    margin: 10px;
+  }
+
+  .checkbox {
+    margin: 10px;
+    line-height: 1.5;
+  }
+
+  .enviar {
+    width: 90%;
+    margin: 15px;
+  }
+
+  table {
+    margin: 20px;
+    width: 90%;
+    position: static;
+  }
 }

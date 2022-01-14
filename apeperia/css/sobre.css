@@ -29,6 +29,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
   margin-bottom: 1rem;
+}
+
+.sobre__imagem {
+  display: none;
 }

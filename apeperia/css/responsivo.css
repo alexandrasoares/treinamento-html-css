@@ -62,4 +62,56 @@
   .sobre__imagem {
     display: block;
   }
+
+  .container {
+    padding-left: calc((100% - 940px) / 2);
+    padding-right: calc((100% - 940px) / 2);
+  }
+
+  .cabecalho {
+    flex-direction: row;
+    justify-content: space-between;
+    border: none;
+  }
+
+  .institucional__conteudo {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    text-align: left;
+  }
+
+  .institucional__video {
+    align-self: flex-end;
+
+    width: 375px;
+  }
+
+  .institucional__contato-email {
+    display: block;
+  }
+
+  .planos__cartoes {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .cartao {
+    max-width: 300px;
+  }
+
+  .rodape {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .rodape__navegacao {
+    text-align: left;
+
+    min-width: 600px;
+  }
 }
